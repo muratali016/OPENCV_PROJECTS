@@ -1,0 +1,25 @@
+cv2.imread("test.png")
+
+cv2.imshow("test.png",img)
+
+imgresized=cv2.resize(img,(108,108))
+
+imgcropped=img[0:200,0:300]
+
+cv2.CascadeClassifier(x)
+
+cv2.cvtColor(kare,cv2.COLOR_BGR2GRAY)
+
+cv2.waitKey(0)
+
+cv2.rectangle(kare,(x,y), (x+w,y+h),(0,255,0),3)
+
+cv2.circle(img,(400,400),70,(200,225,154),cv2.FILLED)
+
+cv2.putText(img,"Merhaba",(200,200),cv2.FONT_HERSHEY_COMPLEX,2,(255,255,255))
+
+cv2.line(img,(0,0),(300,300),(0,255,0),4)
+
+video=cv2.VideoCapture(0)
+
+cv2.destroyAllWindows()
